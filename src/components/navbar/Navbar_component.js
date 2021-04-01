@@ -12,11 +12,6 @@ const currentTab = (history, path) => {
 };
 
 function NavbarComponent({ history }) {
-  // const [isHoveringProject, setisHoveringProject] = useState(false)
-
-  // const handleMouseHoverProject = (e) => {
-  // 	setisHoveringProject(!isHoveringProject)
-  // }
   return (
     <React.Fragment>
       <div className="bgComponent">
@@ -37,12 +32,7 @@ function NavbarComponent({ history }) {
                 <li>About us</li>
               </Link>
               <Link style={currentTab(history, "/project")} to="/">
-                <li
-                // onMouseEnter={() => handleMouseHoverProject()}
-                // onMouseLeave={() => handleMouseHoverProject()}
-                >
-                  Project
-                </li>
+                <li>Project</li>
               </Link>
               <Link style={currentTab(history, "/services")} to="/">
                 <li>Services</li>
@@ -56,17 +46,6 @@ function NavbarComponent({ history }) {
             <SidenavbarComponent />
           </div>
         </div>
-        {/* {	isHoveringProject &&
-        <div className="hoveringContainer">
-									<div>
-										<ul>
-											<Link to='/project2018'> <li >2018</li></Link>
-											<Link to='/project2019'> <li >2019</li></Link>
-											<Link to='/project2020'><li>2020</li></Link>
-										</ul>
-									</div>
-                </div>
-								} */}
       </div>
     </React.Fragment>
   );
