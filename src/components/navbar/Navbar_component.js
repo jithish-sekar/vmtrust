@@ -52,7 +52,7 @@ function NavbarComponent({ history }) {
             <SidenavbarComponent />
           </div>
         </div>
-							{	isHoveringProject &&
+							{/* {	isHoveringProject &&
         <div className="hoveringContainer">
 									<div>
 										<ul>
@@ -62,7 +62,7 @@ function NavbarComponent({ history }) {
 										</ul>
 									</div>
                 </div>
-								}
+								} */}
       </div>
     </React.Fragment>
   );
