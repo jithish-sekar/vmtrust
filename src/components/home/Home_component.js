@@ -24,7 +24,7 @@ function HomeComponent() {
             </div>
             <PopupComponent/>
             <div className="rightContainer">
-              <img src="homegif.gif" alt="gif" />
+              <img src="home1.png" alt="gif" />
             </div>
           </div>
         </div>

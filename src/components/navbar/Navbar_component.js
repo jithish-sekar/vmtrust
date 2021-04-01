@@ -13,7 +13,7 @@ const currentTab = (history, path) => {
 
 function NavbarComponent({ history }) {
 
-  const [isHoveringProject, setisHoveringProject] = useState(false)
+  // const [isHoveringProject, setisHoveringProject] = useState(false)
 
 	// const handleMouseHoverProject = (e) => {
 	// 	setisHoveringProject(!isHoveringProject)
