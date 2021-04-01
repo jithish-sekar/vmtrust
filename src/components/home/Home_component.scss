@@ -1,0 +1,99 @@
+.bgContainer {
+  padding-top: 11vh;
+  .homeContainer {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 89vh;
+    justify-content: space-around;
+    align-items: center;
+    .leftContainer {
+      h3 {
+        margin: 0;
+        font-family: "Josefin Sans", sans-serif;
+        color: #333333;
+        font-size: 70px;
+        line-height: 110px;
+        letter-spacing: 1px;
+      }
+      @media (max-width: 1050px) {
+        h3 {
+          font-size: 48px;
+          line-height: 70px;
+        }
+      }
+      // h4 {
+      //   color: #ffd94c;
+      //   font-size: 26px;
+      //   padding-top: 20px;
+      //   margin: 0;
+      //   font-family: "Josefin Sans", sans-serif;
+      // }
+      // @media (max-width: 1050px) {
+      //   h4 {
+      //     font-size: 20px;
+      //   }
+      // }
+
+      button {
+        padding: 10px 20px;
+        margin-top: 30px;
+        font-family: "Josefin Sans", sans-serif;
+        background-color: transparent;
+        color: #000000;
+        cursor: pointer;
+        outline: none;
+        border: 1px solid #444444;
+        font-size: 14px;
+      }
+      button:hover {
+        background-color: #96B27A;
+        color: #fff;
+        transition: all 0.3s;
+        border: 1px solid #96B27A;
+      }
+      h4:before {
+          color: #96B27A;
+          font-size: 26px;
+          padding-top: 20px;
+          margin: 0;
+          font-family: "Josefin Sans", sans-serif;
+        @media (max-width: 1050px) {
+          h4 {
+            font-size: 20px;
+          }
+        }
+        content: "";
+        animation: animate infinite 8s;
+      }
+      @keyframes animate {
+        0% {
+          content: "Your Kindness Begins";
+        }
+        50% {
+          content: " Their Struggle Ends";
+        }
+        100% {
+          content: "Your Kindness Begins";
+        }
+      }
+    }
+    .rightContainer {
+      img {
+        height: 280px;
+      }
+      @media (max-width: 1050px) {
+        img {
+          height: 180px;
+        }
+      }
+    }
+  }
+  @media (max-width: 950px) {
+    .homeContainer {
+      flex-wrap: wrap;
+      // padding-top: 55px;
+    }
+  }
+}

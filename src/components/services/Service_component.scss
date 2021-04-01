@@ -1,0 +1,70 @@
+.serviceContainer {
+  padding-top: 11vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  h3 {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding-top: 30px;
+    font-size: 32px;
+  }
+  h5 {
+    border-bottom: 2px solid #293e31;
+    width: 80px;
+    margin: 0;
+    color: #fff;
+    margin-left: 2px;
+    padding-top: 0px;
+  }
+  .serviceImg {
+    margin-top: 30px;
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ffd94c;
+    .detail {
+      width: 20%;
+      img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      h4 {
+        font-family: "Josefin Sans", sans-serif;
+        text-align: center;
+      }
+      p {
+        text-align: justify;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+      }
+    }
+    @media (max-width: 1050px) {
+      .detail {
+        width: 100%;
+      }
+    }
+  }
+  .doContainer {
+    h3 {
+      text-align: center;
+    }
+    .serviceList {
+      padding-top: 40px;
+      h4 {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 20px;
+      }
+      p {
+        font-family: "Montserrat", sans-serif;
+        color: #4b4b4b;
+        padding-left:20px;
+        letter-spacing: 1px;
+        text-align: left;
+      }
+    }
+  }
+}

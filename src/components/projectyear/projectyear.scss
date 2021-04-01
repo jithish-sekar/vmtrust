@@ -1,0 +1,35 @@
+.ProjectyearContainer {
+  padding-top: 11vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  h3 {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding-top: 30px;
+    font-size: 32px;
+  }
+  h5 {
+    border-bottom: 2px solid #293e31;
+    width: 80px;
+    margin: 0;
+    color: #fff;
+    padding-top: 0px;
+    margin-left: 2px;
+  }
+  .filmPoster {
+    //   width: 60%;
+    //   margin-left: auto;
+    //   margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 80px;
+
+    img {
+      height: 300px;
+      margin-bottom: 30px;
+    }
+  }
+}
