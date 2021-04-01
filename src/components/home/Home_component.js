@@ -16,7 +16,7 @@ function HomeComponent() {
           <div className="homeContainer">
             <div className="leftContainer">
               <h3>
-              Donate to Save<br/> a Life
+              Donate to Save<br/> a Life.
                 <br />
               </h3>
               <h4></h4>
