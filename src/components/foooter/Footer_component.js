@@ -18,22 +18,22 @@ function FooterComponent() {
           </div>
           <div className="socialLink">
             <ul>
-              <a href="">
+              <a href="/">
                 <li>
                   <i class="fa fa-instagram"></i>Instagram
                 </li>
               </a>
-              <a href="">
+              <a href="/">
               <li>
                 <i class="fa fa-facebook-square"></i>Facebook
               </li>
               </a>
-              <a href="">
+              <a href="/">
               <li>
                 <i class="fa fa-twitter-square"></i>Twitter
               </li>
               </a>
-              <a href="">
+              <a href="/">
               <li>
               <i class="fa fa-whatsapp"></i>Whatsapp
               </li>

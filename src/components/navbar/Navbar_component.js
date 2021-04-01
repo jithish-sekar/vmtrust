@@ -15,9 +15,9 @@ function NavbarComponent({ history }) {
 
   const [isHoveringProject, setisHoveringProject] = useState(false)
 
-	const handleMouseHoverProject = (e) => {
-		setisHoveringProject(!isHoveringProject)
-	}
+	// const handleMouseHoverProject = (e) => {
+	// 	setisHoveringProject(!isHoveringProject)
+	// }
   return (
     <React.Fragment>
       <div className="bgComponent">
