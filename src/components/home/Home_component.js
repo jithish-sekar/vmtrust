@@ -16,7 +16,7 @@ function HomeComponent() {
           <div className="homeContainer">
             <div className="leftContainer">
               <h3>
-              Donate to Save<br/> a Life.
+              Let us restore <br/> humanity.
                 <br />
               </h3>
               <h4>  </h4>
