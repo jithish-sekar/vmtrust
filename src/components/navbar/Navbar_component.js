@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./Navbar_component.scss";
 import { Link, withRouter } from "react-router-dom";
 import SidenavbarComponent from "../sidenavbar/Sidenavbar_component";
@@ -12,18 +12,20 @@ const currentTab = (history, path) => {
 };
 
 function NavbarComponent({ history }) {
-
   // const [isHoveringProject, setisHoveringProject] = useState(false)
 
-	// const handleMouseHoverProject = (e) => {
-	// 	setisHoveringProject(!isHoveringProject)
-	// }
+  // const handleMouseHoverProject = (e) => {
+  // 	setisHoveringProject(!isHoveringProject)
+  // }
   return (
     <React.Fragment>
       <div className="bgComponent">
         <div className="navbarContainer">
           <div className="imgClass">
-           <Link to="/"> <img src="vmlogo.jpeg" alt="logo" /></Link>
+            <Link to="/">
+              {" "}
+              <img src="vmlogo.jpeg" alt="logo" />
+            </Link>
           </div>
           <h3>VM Trust</h3>
           <div className="listClass">
@@ -31,19 +33,21 @@ function NavbarComponent({ history }) {
               <Link style={currentTab(history, "/")} to="/">
                 <li>Home</li>
               </Link>
-              <Link style={currentTab(history, "/about")}  to="/about">
+              <Link style={currentTab(history, "/about")} to="/">
                 <li>About us</li>
               </Link>
-              <Link style={currentTab(history, "/project")}  to="/project">
+              <Link style={currentTab(history, "/project")} to="/">
                 <li
                 // onMouseEnter={() => handleMouseHoverProject()}
-								// onMouseLeave={() => handleMouseHoverProject()}
-                >Project</li>
+                // onMouseLeave={() => handleMouseHoverProject()}
+                >
+                  Project
+                </li>
               </Link>
-              <Link style={currentTab(history, "/services")}  to="/services">
+              <Link style={currentTab(history, "/services")} to="/">
                 <li>Services</li>
               </Link>
-              <Link style={currentTab(history, "/team")} to="/team">
+              <Link style={currentTab(history, "/team")} to="/">
                 <li>Team</li>
               </Link>
             </ul>
@@ -52,7 +56,7 @@ function NavbarComponent({ history }) {
             <SidenavbarComponent />
           </div>
         </div>
-							{/* {	isHoveringProject &&
+        {/* {	isHoveringProject &&
         <div className="hoveringContainer">
 									<div>
 										<ul>
