@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar_component.scss";
 import { Link, withRouter } from "react-router-dom";
 import SidenavbarComponent from "../sidenavbar/Sidenavbar_component";
