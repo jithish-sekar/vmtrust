@@ -28,15 +28,13 @@ function NavbarComponent({ history }) {
               <Link style={currentTab(history, "/")} to="/">
                 <li>Home</li>
               </Link>
-              <Link style={currentTab(history, "/about")} to="/">
+              <Link style={currentTab(history, "/about")} to="/about">
                 <li>About us</li>
               </Link>
               <Link style={currentTab(history, "/project")} to="/">
                 <li>Project</li>
               </Link>
-              <Link style={currentTab(history, "/services")} to="/">
-                <li>Services</li>
-              </Link>
+            
               <Link style={currentTab(history, "/team")} to="/">
                 <li>Team</li>
               </Link>

@@ -20,7 +20,7 @@ function HomeComponent() {
                 <br />
               </h3>
               <h4>  </h4>
-             <Link to="/"> <button>Learn more</button></Link>
+             <Link to="/about"> <button>Learn more</button></Link>
             </div>
             <PopupComponent/>
             <div className="rightContainer">
