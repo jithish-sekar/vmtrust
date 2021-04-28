@@ -13,17 +13,13 @@ function FooterComponent() {
                 {" "}
                 <li>Home</li>
               </Link>
-              <Link to="/">
+              <Link to="/about">
                 {" "}
                 <li>About us</li>
               </Link>
               <Link to="/">
                 {" "}
                 <li>Project</li>
-              </Link>
-              <Link to="/">
-                {" "}
-                <li>Services</li>
               </Link>
               <Link to="/">
                 <li>Team</li>
