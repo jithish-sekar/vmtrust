@@ -59,7 +59,7 @@ function FooterComponent() {
             </ul>
           </div>
         </div>
-        <h5>© 2020 copyright:VM Trust</h5>
+        <h5>© 2021 copyright:VM Trust</h5>
         <a href="https://oddu.in">
           {" "}
           <h4>
