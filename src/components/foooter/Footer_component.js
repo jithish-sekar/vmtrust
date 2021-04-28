@@ -17,7 +17,7 @@ function FooterComponent() {
                 {" "}
                 <li>About us</li>
               </Link>
-              <Link to="/">
+              <Link to="/project">
                 {" "}
                 <li>Project</li>
               </Link>

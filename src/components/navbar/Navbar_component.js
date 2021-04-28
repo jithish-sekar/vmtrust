@@ -31,7 +31,7 @@ function NavbarComponent({ history }) {
               <Link style={currentTab(history, "/about")} to="/about">
                 <li>About us</li>
               </Link>
-              <Link style={currentTab(history, "/project")} to="/">
+              <Link style={currentTab(history, "/project")} to="/project">
                 <li>Project</li>
               </Link>
             
