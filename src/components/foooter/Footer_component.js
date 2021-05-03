@@ -28,12 +28,12 @@ function FooterComponent() {
           </div>
           <div className="socialLink">
             <ul>
-              <a href="/">
+              <a href="https://instagram.com/vmtrustcbe?igshid=1p0qrxjzzmpox">
                 <li>
-                  <i class="fa fa-instagram"></i>Instagram
+                 <i class="fa fa-instagram"></i>Instagram
                 </li>
               </a>
-              <a href="/">
+              <a href="https://touch.facebook.com/vmtrustcbe/?tsid=0.7019694965329384&source=result">
                 <li>
                   <i class="fa fa-facebook-square"></i>Facebook
                 </li>

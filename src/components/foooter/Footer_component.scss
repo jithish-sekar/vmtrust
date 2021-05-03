@@ -1,5 +1,5 @@
 .bgConatiner {
-  background-color: #96B27A;
+  background-color: #96b27a;
   .footerContainer {
     width: 80%;
     margin-left: auto;
@@ -15,7 +15,6 @@
         margin-top: 12px;
         font-size: 18px;
         color: #000;
-
         cursor: pointer;
       }
       li:hover {
@@ -31,7 +30,9 @@
         cursor: pointer;
         color: #000;
       }
-
+      a {
+        text-decoration: none;
+      }
       i {
         padding-right: 10px;
       }
@@ -69,5 +70,4 @@
   a {
     text-decoration: none;
   }
- 
 }
