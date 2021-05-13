@@ -19,7 +19,7 @@ export const SidebarData = [
     {
       title: "Team",
       cName: "nav-text",
-      path: "/",
+      path: "/team",
     },
   ];
   
