@@ -35,7 +35,7 @@ function NavbarComponent({ history }) {
                 <li>Project</li>
               </Link>
             
-              <Link style={currentTab(history, "/team")} to="/">
+              <Link style={currentTab(history, "/team")} to="/team">
                 <li>Team</li>
               </Link>
             </ul>
