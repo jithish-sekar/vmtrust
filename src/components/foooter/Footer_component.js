@@ -21,7 +21,7 @@ function FooterComponent() {
                 {" "}
                 <li>Project</li>
               </Link>
-              <Link to="/">
+              <Link to="/team">
                 <li>Team</li>
               </Link>
             </ul>
